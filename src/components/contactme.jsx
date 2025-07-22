@@ -71,10 +71,10 @@ const Contactme = () => {
         </form>
 
         <div className="flex justify-center items-center gap-6 mt-6 text-2xl">
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-gray-700 transition">
+          <a href="https://github.com/indrajitatodariya" target="_blank" rel="noopener noreferrer" className="hover:text-gray-700 transition">
             <i className="fab fa-github"></i>
           </a>
-          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-gray-700 transition">
+          <a href="https://www.linkedin.com/in/indrajit-atodariya-217a37317" target="_blank" rel="noopener noreferrer" className="hover:text-gray-700 transition">
             <i className="fab fa-linkedin"></i>
           </a>
           <a href="mailto:indrajitsinhatodariya28@gmail.com" className="hover:text-gray-700 transition">
