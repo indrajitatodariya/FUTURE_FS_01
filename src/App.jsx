@@ -2,7 +2,7 @@ import '../src/index.css';
 import React from "react";
 import { BrowserRouter as Router } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import Navbar from './components/Navbar';
+import Navbar from './components/navbar';
 import HeroSection from './components/HeroSection';
 import AboutSection from './components/aboutme';
 import SkillsSection from './components/skills';
