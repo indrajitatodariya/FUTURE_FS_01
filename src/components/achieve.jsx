@@ -59,6 +59,7 @@ const AchievementSection = () => {
             key={index}
             className="h-screen w-full flex items-center justify-center snap-start p-6"
           >
+            
             <div className="border border-gray-300 shadow-lg rounded-xl w-[90vw] h-[90vw] max-w-[600px] max-h-[600px] flex flex-col justify-center items-center text-center px-6 py-10 transition-all duration-300 ease-in-out hover:scale-[1.02] bg-white">
               <h2 className="text-2xl md:text-3xl font-semibold mb-3">{item.title}</h2>
               <p className="text-base md:text-lg mb-4">{item.description}</p>
