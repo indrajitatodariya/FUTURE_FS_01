@@ -18,8 +18,8 @@ const projects = [
     description:
       "An interactive BMW brand presentation with 3D car views, dynamic filters, and rich animations.",
     image: bmw,
-    github: "#",
-    live: "#",
+    github: "https://github.com/indrajitatodariya/FUTURE_FS_03",
+    live: "https://future-fs-03-theta.vercel.app/",
     reverse: true,
   },
 ];
