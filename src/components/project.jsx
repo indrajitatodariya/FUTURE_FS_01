@@ -9,8 +9,8 @@ const projects = [
     description:
       "A full-featured MERN stack e-commerce site with cart, product filters, and user authentication.",
     image: ecom,
-    github: "#",
-    live: "#",
+    github: "https://github.com/indrajitatodariya/FUTURE_FS_02",
+    live: "https://future-fs-02-psi-wheat.vercel.app/",
     reverse: false,
   },
   {
