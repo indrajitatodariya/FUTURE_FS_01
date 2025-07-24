@@ -64,18 +64,20 @@ const AboutSection = () => {
         />
 
         <div className="relative z-10 flex flex-col md:flex-row items-center md:items-start gap-10 md:gap-16">
-          <motion.div
-            className="relative w-72 h-72 sm:w-80 sm:h-80 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-full overflow-hidden shadow-xl transition-transform duration-300"
-            variants={imageVariants}
-            whileHover="hover"
-          >
-            <img
-              src={ProfileImage}
-              alt="Indrajitsinh - Profile"
-              className="w-full h-full object-cover block"
-            />
-            <div className="absolute inset-0 rounded-full border-4 border-transparent animate-pulse-border"></div>
-          </motion.div>
+         <motion.div
+  className="relative w-80 h-96 sm:w-96 sm:h-[28rem] rounded-xl overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105"
+  variants={imageVariants}
+  whileHover="hover"
+>
+  <img
+    src={ProfileImage}
+    alt="Indrajitsinh - Profile"
+    className="w-full h-full object-cover"
+    loading="eager"
+    decoding="async"
+  />
+</motion.div>
+
 
           <div className="flex-grow flex flex-col justify-center text-left max-w-2xl text-black">
             <motion.p variants={itemVariants} className="text-lg md:text-xl font-medium mb-5 leading-relaxed">
