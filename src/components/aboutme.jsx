@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import ProfileImage from '../assets/download.jpeg';
+import ProfileImage from '../assets/aboutme.jpg'
 
 const AboutSection = () => {
   const sectionVariants = {
@@ -79,12 +79,16 @@ const AboutSection = () => {
 
           <div className="flex-grow flex flex-col justify-center text-left max-w-2xl text-black">
             <motion.p variants={itemVariants} className="text-lg md:text-xl font-medium mb-5 leading-relaxed">
-              Hello! I'm <strong className="text-accent1">Indrajitsinh</strong>, a <strong className="text-accent1">passionate web developer</strong> who thrives on crafting
+              Hello! I'm <strong className="text-accent1">Indrajitsinh</strong>, an <strong className="text-accent1">Aspiring Software developer</strong> who thrives on crafting
               <strong className="text-accent1"> intuitive and innovative digital solutions</strong>.
             </motion.p>
 
             <motion.p variants={itemVariants} className="text-base md:text-lg mb-6 leading-relaxed text-gray-600">
-              I specialize in both <strong className="text-accent1">front-end interfaces</strong> using React and <strong className="text-accent1">robust back-end systems</strong>. From stunning UIs to API design — I enjoy solving challenges with elegance.
+              I'm someone who loves thinking logically and enjoys subjects like maths and physics.
+I have a deep interest in how technology works and love building things step by step.
+I enjoy outdoor games, especially volleyball — it keeps me active and focused.
+I prefer simplicity, but I always aim to make things look impressive and well-structured.
+I like exploring new tools and designs until I get them just right.
             </motion.p>
 
             <motion.blockquote variants={itemVariants} className="text-lg md:text-xl italic border-l-4 pl-4 mb-6 border-accent2 text-gray-600">
@@ -93,7 +97,7 @@ const AboutSection = () => {
             </motion.blockquote>
 
             <motion.p variants={itemVariants} className="text-base md:text-lg mb-8 leading-relaxed text-gray-600">
-              When not coding, I explore new tech, build side projects, or contribute to open-source. My aim? To use technology for good, solve real-world problems, and learn endlessly.
+              When I’m not coding, I enjoy thinking about how things work and trying out new ideas. I like improving my skills by building things on my own, exploring smart solutions, and learning through trial and error. My goal is simple — to grow step by step and build things that make sense and feel right
             </motion.p>
 
             <motion.a
