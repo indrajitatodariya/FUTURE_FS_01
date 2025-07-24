@@ -84,7 +84,7 @@ const Contactme = () => {
 
         <div className="mt-8 text-center">
           <a
-            href="../../public/Resume.pdf"
+            href="/Resume.pdf"
             download
             className="inline-block border border-black px-6 py-2 rounded hover:bg-black hover:text-white transition duration-300"
           >

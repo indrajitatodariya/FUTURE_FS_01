@@ -114,7 +114,7 @@ const Navbar = () => {
             ))}
             <motion.li className="w-full mt-4" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} role="none">
               <a
-                href="../../public/Resume.pdf"
+                href="/Resume.pdf"
                 onClick={handleResumeDownload}
                 className="flex items-center gap-2 py-4 px-6 w-full text-lg font-medium rounded-md mx-6 bg-accent2 text-primary hover:bg-accent2/80"
                 download
@@ -146,7 +146,7 @@ const Navbar = () => {
         ))}
         <motion.li whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} role="none">
           <a
-            href="../../public/Resume.pdf"
+            href="/Resume.pdf"
             onClick={handleResumeDownload}
             className="flex items-center gap-2 px-6 py-2 rounded-lg font-semibold bg-accent2 text-primary hover:bg-accent2/80 shadow-md"
             download
